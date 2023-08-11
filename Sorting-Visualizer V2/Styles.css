@@ -17,19 +17,4 @@
     padding: auto;
 }
 
-.box1{
-    display: inline-block;
-    background-color: red;
-    margin-top: 10px;
-    margin-left: 5px;
-    height: 100px;
-    width: 10px;
-}
-.box2{
-    display: inline-block;
-    background-color: red;
-    margin-top: 10px;
-    margin-left: 5px;
-    height: 200px;
-    width: 10px;
-}
+

@@ -60,6 +60,21 @@ function QuickSort2(arrs,low,high){
     pillars[e].classList.add("lowAndHigh");
     //}
     
+    while(s <= e){
+        while (pillars[s].clientHeight < pivot.clientHeight ){
+            s += 1;
+        }
+        while (pillars[e].clientHeight > pivot.clientHeight ){
+            e -= 1;
+        }
+        //pillars[s].style.backgroundColor = "red";
+        //pillars[e].style.backgroundColor = "red";
+        setTimeout(changePillarColours,1000, s, "red");
+        setTimeout(changePillarColours,1000, e, "red");
+        setTimeout(changePillarHeight,2000, s, pillars[e].clientHeight);
+        setTimeout(changePillarHeight,2000, e, pillars[s].clientHeight);
+        break;
+    }
 }
 
 function QuickSort(pillars,low,high){

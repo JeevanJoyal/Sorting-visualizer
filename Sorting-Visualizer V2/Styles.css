@@ -11,10 +11,12 @@
 .pillar:hover{
     background-color: purple;
 }
-.lowAndHigh{
-    background-color: greenyellow;
+.low{
+    background-color: green;
 }
-
+.high{
+    background-color: green;
+}
 .pivot{
     border: 0px;
     background-color: yellow;

@@ -11,6 +11,17 @@
 .pillar:hover{
     background-color: purple;
 }
+.low{
+    background-color: green;
+}
+.high{
+    background-color: green;
+}
+.pivot{
+    border: 0px;
+    background-color: yellow;
+    border-style: dashed;
+}
 
 #result{
     text-align: center;

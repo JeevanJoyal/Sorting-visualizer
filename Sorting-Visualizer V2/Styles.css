@@ -1,4 +1,8 @@
 
+#result{
+    text-align: center;
+    padding: auto;
+}
 .pillar{
     display: inline-block;
     background-color: blue;
@@ -6,26 +10,23 @@
     margin-left: 5px;
     height: 100px;
     width: 20.3px;
-    transition-duration: 500ms;
+    transition: background-color 0.5s;
 }
 .pillar:hover{
     background-color: purple;
 }
-.low{
-    background-color: green;
-}
-.high{
-    background-color: green;
-}
+
 .pivot{
-    border: 0px;
+    background-color: black;
+}
+
+.changeToYellow{
     background-color: yellow;
-    border-style: dashed;
 }
 
-#result{
-    text-align: center;
-    padding: auto;
+.changeToBlue{
+    background-color: blue;
 }
-
-
+.changeHeight{
+    
+}
